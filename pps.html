@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTU Programmer | PPS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+        <title>Responsive Navbar with Tailwind CSS</title>
+    </head>
+
+    <body>
+        <nav class="bg-blue-600 opacity-90">
+            <div class="container  bg-blue-600 mx-auto px-4">
+                <div class="flex items-center justify-between h-16">
+                    <div class="flex items-center">
+                        <a class="text-white text-lg bg-blue-600 font-semibold uppercase" href="index.html">GTU
+                            Programmer</a>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a class="text-white text-lg font-semibold hover:text-white px-3 py-2 uppercase"
+                                href="index.html">Home</a>
+                            <!-- <a class="text-gray-300 hover:text-white px-3 py-2 uppercase" href="index.html">About</a> -->
+                            <!-- <a class="text-gray-300 hover:text-white px-3 py-2 uppercase" href="i">Services</a> -->
+                            <!-- <a class="text-gray-300 hover:text-white px-3 py-2 uppercase" href="#">Contact</a> -->
+                        </div>
+                    </div>
+                    <div class="block md:hidden">
+                        <button
+                            class="flex items-center px-3 py-2 border rounded text-gray-300 border-gray-400 hover:text-white hover:border-white">
+                            <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <a class="text-gray-300 hover:text-white block px-3 py-2" href="#">HOME</a>
+                    <a class="text-gray-300 hover:text-white block px-3 py-2" href="#">ABOUT</a>
+                    <a class="text-gray-300 hover:text-white block px-3 py-2" href="#">SERVICES</a>
+                    <a class="text-gray-300 hover:text-white block px-3 py-2" href="#">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="bg-grey-50" id="blog">
+            <div class="container py-16 md:py-20">
+                <h2
+                    class="text-center font-header text-4xl font-semibold uppercase text-blue-600 sm:text-5xl lg:text-6xl">
+                    PROGRAMING FOR PROBLEM SOLVING(PPS)
+                </h2>
+                <h4 class="pt-6 text-center font-header text-xl font-medium text-stone-800 sm:text-2xl lg:text-3xl">
+                    Quick sollutions for all practicals
+                </h4>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem01.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 01 </span>
+                            <span class="block pt-2 font-body text-grey-20"> Write a program to that performs as calculator ( addition,
+                                multiplication, division, subtraction).</span>
+                        </div>
+                    </a>
+                    <a href="problem02.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 02</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to find area of triangle (a=h*b*.5) a = area h = height b = base</span>
+                        </div>
+                    </a>
+                    <a href="problem03.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 03</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to calculate simple interest (i = (p*r*n)/100 ) i = Simple interest p = Principal amount r = Rate of interest n = Number of years</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem04.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 04 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to interchange two numbers</span>
+                        </div>
+                    </a>
+                    <a href="problem05.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 05</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to enter a distance in to kilometre and convert it in to meter, feet, inches and centimetre</span>
+                        </div>
+                    </a>
+                    <a href="problem06.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 06</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to compute Fahrenheit from centigrade (f=1.8*c +32)</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem07.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 07 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to find out distance travelled by the equation d = vt + at^2</span>
+                        </div>
+                    </a>
+                    <a href="problem08.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 08</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to find that the accepted number is Negative, or Positive or Zero</span>
+                        </div>
+                    </a>
+                    <a href="problem09.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 09</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to read marks of a student from keyboard whether the student is pass or fail(using if else)</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem10.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 10 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to read three numbers from keyboard and find out maximum out of these three. (nested if else)</span>
+                        </div>
+                    </a>
+                    <a href="problem11.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 11</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to check whether the entered character is capital, small letter, digit or any special character
+                            </span>
+                        </div>
+                    </a>
+                    <a href="problem12.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 12</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to read marks from keyboard and your program should display equivalent grade according to following table(if else ladder)</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem13.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 13 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a c program to prepare pay slip using following data. Da = 10% of basic, Hra = 7.50% of basic, Ma = 300, Pf = 12.50% of basic, Gross = basic + Da + Hra + Ma, Nt = Gross – Pf.</span>
+                        </div>
+                    </a>
+                    <a href="problem14.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 14</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to read no 1 to 7 and print relatively day Sunday to Saturday</span>
+                        </div>
+                    </a>
+                    <a href="problem15.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 15</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to find out the Maximum and Minimum number from given 10 numbers</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem16.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 16 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to input an integer number and check the last digit of number is even or odd.</span>
+                        </div>
+                    </a>
+                    <a href="problem17.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 17</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to find factorial of a given number.</span>
+                        </div>
+                    </a>
+                    <a href="problem18.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 18</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to reverse a number</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem19.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 19 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to generate first n number of Fibonacci series.</span>
+                        </div>
+                    </a>
+                    <a href="problem20.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 20</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to find out sum of first and last digit of a given number</span>
+                        </div>
+                    </a>
+                    <a href="problem21.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 21</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to find the sum and average of different numbers which are accepted by user as many as user wants</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem22.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 22</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to calculate average and total of 5 students for 3 subjects (use nested for loops)</span>
+                        </div>
+                    </a>
+                    <a href="problem23.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 23</span>
+                            <span class="block pt-2 font-body text-grey-20">Read five persons height and weight and count the number of person having height greater than 170 and weight less than 50,</span>
+                        </div>
+                    </a>
+                    <a href="problem24.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 24</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to check whether the given number is prime or not.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem25.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 25</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to evaluate the series 1^2+2^2+3^2+……+n^2</span>
+                        </div>
+                    </a>
+                    <a href="problem26.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 26</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to find 1+1/2+1/3+1/4+....+1/n</span>
+                        </div>
+                    </a>
+                    <a href="problem27.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 27</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to find 1+1/2!+1/3!+1/4!+.....+1/n!</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem28.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 28 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to evaluate the series sum=1-x+x^2/2!-x^3/3!+x^4/4!......-x^9/9!</span>
+                        </div>
+                    </a>
+                    <a href="problem29.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 29</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to print diffrent star patterns.</span>
+                        </div>
+                    </a>
+                    <a href="problem30.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 30</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to print diffrent number patterns.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem31.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 31</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to print diffrent alphabet patterns.</span>
+                        </div>
+                    </a>
+                    <a href="problem32.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 32</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to read and store the roll no and marks of 20 students using array.</span>
+                        </div>
+                    </a>
+                    <a href="problem33.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 33</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to find out which number is even or odd from list of 10 numbers using array.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem34.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 34 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to find maximum element from 1-Dimensional array.</span>
+                        </div>
+                    </a>
+                    <a href="problem35.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 35</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to calculate the average, geometric and harmonic mean of n elements in an array.</span>
+                        </div>
+                    </a>
+                    <a href="problem36.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 36</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to sort given array in ascending order (Use Insertion sort, Bubble sort, Selection sort, Mergesort, Quicksort, Heapsort).</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem37.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 37 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to find a character from given string.</span>
+                        </div>
+                    </a>
+                    <a href="problem38.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 38</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to replace a character in given string.</span>
+                        </div>
+                    </a>
+                    <a href="problem39.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 39</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to delete a character in given string.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem40.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 40 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to reverse string.</span>
+                        </div>
+                    </a>
+                    <a href="problem41.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 41</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program to convert string into upper case.</span>
+                        </div>
+                    </a>
+                    <a href="problem42.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 42</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a program that defines a function to add first n numbers.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="problem43.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 43 </span>
+                            <span class="block pt-2 font-body text-grey-20">Write a function in the program to return 1 if number is prime otherwise return 0.</span>
+                        </div>
+                    </a>
+                    <a href="problem44.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 44</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a function Exchange to interchange the values of two variables, say x and y. illustrate the use of this function in a calling function.</span>
+                        </div>
+                    </a>
+                    <a href="problem45.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 45</span>
+                            <span class="block pt-2 font-body text-grey-20">Write a C program to use recursive calls to evaluate F(x) = x – x^ 3 / 3! + x^5 / 5 ! – x^ 7 / 7! + … x^n / n!.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="post.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 46 </span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 47</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 48</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="post.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 49 </span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 50</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 51</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="post.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 52 </span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 53</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 54</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="post.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 55 </span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 56</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 57</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="post.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 58 </span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 59</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 60</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="post.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 61 </span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 62</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 63</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-10 pl-10 mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                    <a href="post.html" class="shadow">
+                        <div style="background-image: url(/assets/img/post-01.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 64 </span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-02.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 65</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a>
+                    <!-- <a href="/post" class="shadow">
+                        <div style="background-image: url(/assets/img/post-03.png)"
+                            class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                            <span
+                                class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                            <span
+                                class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                                More</span>
+                        </div>
+                        <div class="bg-white py-6 px-5 xl:py-8">
+                            <span class="block font-body text-lg font-semibold text-black">Problem 66</span>
+                            <span class="block pt-2 font-body text-grey-20">Quick Solutions For All Practicals</span>
+                        </div>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+    </html>
